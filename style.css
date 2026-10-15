@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.header{
+    width: 100%;
+    height: 132px;
+    background-color:rgba(34, 40, 49, 1) ;
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgba(217, 217, 217, 0.2);
+}
+.nav{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+}
+.nav ul{
+    width: 502px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.nav ul li a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+.section1{
+    width: 100%;
+    height: 892px;
+    background-color: rgba(34, 40, 49, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec1_container{
+    width: 80%;
+    height: 90%;
+    background-image: url(./title.png);
+    background-repeat: no-repeat;
+    background-size: 37%;
+    background-position: 85%;
+}
+.left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+}
+.text{
+    width: 586px;
+    height: 287px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.text p{
+    font-size: 95px;
+    line-height: 80px;
+}
+.text span{
+    color: rgba(0, 173, 181, 1);
+}
+.text_button_container{
+    width: 383px;
+    height: 47px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn1{
+    width: 136px;
+    height: 47px;
+    border-radius: 24px;
+    background-color: rgba(0, 173, 181, 1);
+    color: white;
+    border: none;
+}
+
+.btn2{
+    width: 223px;
+    height: 47px;
+    border-radius: 24px;
+    background-color: rgba(57, 62, 70, 0.75);
+    color: white;
+    border: none;
+}
+
+.bot_bitton_container{
+    width: 140px;
+    height: 265px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.bot_bitton_container button{
+    width: 90px;
+    height: 90px;
+    background-color: rgba(57, 62, 70, 0.75);
+    border: none;
+}
+.section2{
+    width: 100%;
+    height: 1024px;
+    background-color: rgba(34, 40, 49, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec2_container{
+    width: 100%;
+    height: 1024px;
+    background-image: url(./aboutme.png);
+    background-repeat: no-repeat;
+    background-size: 37%;
+    background-position: 85%;
+    
+}
+.About_Me{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text_AM{
+    width: 389px;
+    height: 285px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.text_AM h1{
+    font-size: 60px;
+    line-height: 80px;
+}
+.text_AM h1 span{
+    color: rgba(0, 173, 181, 1);
+}
+.text_AM p{
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.section3{
+    width: 100%;
+    height: 1024px;
+    background-color: rgba(34, 40, 49, 1);
+    background-image: url(./background.png);
+    background-repeat: repeat;
+    background-size: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec3_container{
+    width: 70%;
+    height: 50%;
+    background-image: url(./);
+    background-repeat: no-repeat;
+    background-size: 10%
+}
+.text_b{
+    width: 676px;
+    height: 287px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.text_b p{
+    font-size: 95px;
+    line-height: 80px;
+}
+.text_b span{
+    color: rgba(0, 173, 181, 1);
+}
+.text_button_container2{
+    width: 482px;
+    height: 47px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn21{
+    width: 88px;
+    height: 47px;
+    border-radius: 24px;
+    background-color: rgba(57, 62, 70, 0.75) ;
+    color: white;
+    border: none;
+}
+.btn22{
+    width: 82px;
+    height: 47px;
+    border-radius: 24px;
+    background-color: rgba(57, 62, 70, 0.75) ;
+    color: white;
+    border: none;
+}
+.btn23{
+    width: 90px;
+    height: 47px;
+    border-radius: 24px;
+    background-color: rgba(57, 62, 70, 0.75) ;
+    color: white;
+    border: none;
+}
+.btn24{
+    width: 174px;
+    height: 47px;
+    border-radius: 24px;
+    background-color: rgba(57, 62, 70, 0.75) ;
+    color: white;
+    border: none;
+}
+.works{
+    width: 1200px;
+    height: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.b1{
+    width: 368px;
+    height: 280px;
+    border-radius: 24px;
+    background-color: rgba(57, 62, 70, 0.5);
+    color: white;
+    background-image: url(./ui.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.b2{   
+    width: 368px;
+    height: 280px;
+    border-radius: 24px;
+    background-color: rgba(57, 62, 70, 0.5);
+    color: white;
+    background-image: url(./ux.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.b3{
+    width: 368px;
+    height: 280px;
+    border-radius: 24px;
+    background-color: rgba(57, 62, 70, 0.5);
+    color: white;
+    background-image: url(./web.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+
+.section4{
+    width: 100%;
+    height: 1024px;
+    background-color: rgba(34, 40, 49, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec4_container{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.left-contact{
+    width: 600px;
+    height: 160%;
+    background-image: url(./contact.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: 75%;
+
+}
+.text_c{
+    width: 600px;
+    height: 160px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.text_c p{
+    font-size: 95px;
+    line-height: 80px;
+}
+.text_c span{
+    color: rgba(0, 173, 181, 1);
+}
+.contact-form{
+    width: 600px;
+    height: 508px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.line1{
+    width: 600px;
+    height: 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-name{
+    width: 288px;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.form-name label{
+    font-size: 24px;
+    line-height: 30px;
+    color: white;
+}
+.form-name input{
+    width: 288px;
+    height: 59px;    
+    background-color: rgba(57, 62, 70);
+    border: none;
+    border-radius: 15px;
+    font-size: 24px;
+    line-height: 30px;
+    color: rgba(238, 238, 238, 0.5);
+}
+.form-email{
+    width: 288px;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.form-email label{
+    font-size: 24px;
+    line-height: 30px;
+    color: white;
+}
+.form-email input{
+    width: 288px;
+    height: 59px;  
+    background-color: rgba(57, 62, 70);
+    border: none;
+    border-radius: 15px;
+    font-size: 24px;
+    line-height: 30px;
+    color: rgba(238, 238, 238, 0.5);
+}
+
+
+.form-message{
+    width: 600px;
+    height: 317px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.form-message label{
+    font-size: 24px;
+    line-height: 30px;
+    color: white;
+}
+.form-message textarea{
+    width: 600px;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgba(57, 62, 70);
+    border: none;
+    border-radius: 15px;
+    font-size: 24px;
+    line-height: 30px;
+    color: rgba(238, 238, 238, 0.5);
+}
+.s-btn{
+    width: 232px;
+    height: 47px;
+    border-radius: 24px;
+    background-color:rgba(0, 173, 181, 1) ;
+    color: white;
+    border: none;
+    font-size: 20px;
+    background-image: url(./message.png);
+    background-repeat: no-repeat;
+    background-size: 13%;
+    background-position: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: rgba(34, 40, 49, 1);
+    display: flex;
+    border: 1px solid rgba(217, 217, 217, 0.2);
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-container{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-nav{
+    width: 475px;
+    height: 47px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.footer-nav ul{
+    width: 475px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.footer-nav ul li a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+.social-media{
+    width: 264px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.social-media button{
+    width: 48px;
+    height: 48px;
+    border-radius: 100px;
+    background-color: rgba(57, 62, 70, 0.75);
+    color: white;
+    border: none;
+}
+.facebook{
+    background-image: url(./facebook.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: 50%;
+}
+.instagram{
+    background-image: url(./instagram.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: 50%;
+}
+.twitter{
+    background-image: url(./twitter.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: 50%;
+}
+.youtube{
+    background-image: url(./youtube.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: 50%;
+}
